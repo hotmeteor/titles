@@ -1,4 +1,4 @@
-# Regex
+# Titles
 
 A set of ready-made titling helper methods for use in your Laravel application.
 
