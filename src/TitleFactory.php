@@ -1,6 +1,6 @@
 <?php
 
-namespace Hotmeteor\Titles;
+namespace Hotmeteor\WritingStyle;
 
 class TitleFactory
 {
