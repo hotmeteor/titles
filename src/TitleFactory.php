@@ -2,7 +2,8 @@
 
 namespace Hotmeteor\Titles;
 
-use Enums\Style;
+use Hotmeteor\Titles\Enums\Style;
+use Exception;
 
 class TitleFactory
 {
