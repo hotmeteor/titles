@@ -1,11 +1,12 @@
 {
-  "name": "hotmeteor/titles",
-  "description": "A set of ready-made title helper methods for use in your Laravel application.",
+  "name": "hotmeteor/writing-style",
+  "description": "A set of ready-made writing style helper methods (titling, date formatting, etc.) for use in your Laravel application.",
   "type": "library",
   "license": "MIT",
   "keywords": [
     "laravel",
-    "titles"
+    "writing-style",
+    "title-case"
   ],
   "authors": [
     {
@@ -25,12 +26,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Hotmeteor\\Titles\\": "src"
+      "Hotmeteor\\WritingStyle\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Hotmeteor\\Titles\\Tests\\": "tests/"
+      "Hotmeteor\\WritingStyle\\Tests\\": "tests/"
     }
   },
   "scripts": {
@@ -39,10 +40,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Hotmeteor\\Titles\\TitlesServiceProvider"
+        "Hotmeteor\\WritingStyle\\TitlesServiceProvider"
       ],
       "aliases": {
-        "Title": "Hotmeteor\\Titles\\Facade"
+        "Title": "Hotmeteor\\WritingStyle\\Facade"
       }
     }
   },

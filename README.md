@@ -1,13 +1,13 @@
-# Titles
+# WritingStyle
 
-A set of ready-made titling helper methods for use in your Laravel application.
+A set of ready-made writing style helper methods (titling, date formatting, etc.) for use in your Laravel application.
 
-[![Latest Stable Version](http://poser.pugx.org/hotmeteor/titles/v)](https://packagist.org/packages/hotmeteor/titles)
+[![Latest Stable Version](http://poser.pugx.org/hotmeteor/writing-style/v)](https://packagist.org/packages/hotmeteor/writing-style)
 
 ## Installation
 
 ```shell
-composer require hotmeteor/titles
+composer require hotmeteor/writing-style
 ```
 
 ## Usage
