@@ -2,10 +2,20 @@
 
 namespace Hotmeteor\Titles;
 
+use Enums\Style;
+
 class TitleFactory
 {
     public function __construct(public string $lang)
     {
+    }
+
+    public static function title(string $value, Style $style): string
+    {
+        return match($style) {
+            Style::APA => (new TitleFactory)->apa($value);
+            default => throw new Exception("The style \"{$style->name}\" is currently not implemented");
+        };
     }
 
     /**
